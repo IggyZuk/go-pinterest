@@ -1,10 +1,10 @@
-package: github.com/a-frony/go-pinterest
-homepage: https://github.com/a-frony/go-pinterest
+package: github.com/iggyzuk/go-pinterest
+homepage: https://github.com/iggyzuk/go-pinterest
 license: MIT
 owners:
-- name: a-frony Creative
-  email: hello@a-frony.is
-  homepage: https://a-frony.is
+- name: iggyzuk Creative
+  email: hello@iggyzuk.is
+  homepage: https://iggyzuk.is
 - name: Brandon Romano
   email: BrandonRRomano@gmail.com
 import:

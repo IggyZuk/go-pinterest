@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"github.com/BrandonRomano/wrecker"
-	"github.com/a-frony/go-pinterest/models"
 	"strconv"
+
+	"github.com/BrandonRomano/wrecker"
+	"github.com/iggyzuk/go-pinterest/models"
 )
 
 // MeBoardsSuggestedController is the controller that is responsible for all

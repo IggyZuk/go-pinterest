@@ -1,4 +1,4 @@
-# Go Pinterest [![Build Status](https://travis-ci.org/a-frony/go-pinterest.svg?branch=master)](https://travis-ci.org/a-frony/go-pinterest) [![Coverage Status](https://coveralls.io/repos/github/a-frony/go-pinterest/badge.svg?branch=master)](https://coveralls.io/github/a-frony/go-pinterest?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/a-frony/go-pinterest)](https://goreportcard.com/report/github.com/a-frony/go-pinterest)
+# Go Pinterest [![Build Status](https://travis-ci.org/iggyzuk/go-pinterest.svg?branch=master)](https://travis-ci.org/iggyzuk/go-pinterest) [![Coverage Status](https://coveralls.io/repos/github/iggyzuk/go-pinterest/badge.svg?branch=master)](https://coveralls.io/github/iggyzuk/go-pinterest?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/iggyzuk/go-pinterest)](https://goreportcard.com/report/github.com/iggyzuk/go-pinterest)
 
 This is a Go client for the Pinterest API.  For more information about the Pinterest API, check out their [getting started](https://developers.pinterest.com/docs/api/overview/) guide.
 
@@ -8,10 +8,10 @@ To create a simple Pinterest client:
 
 ```go
 import(
-    "github.com/a-frony/go-pinterest"
+    "github.com/iggyzuk/go-pinterest"
     // Below imports aren't needed immediately, but you'll want these soon after
-	"github.com/a-frony/go-pinterest/controllers"
-	"github.com/a-frony/go-pinterest/models"
+	"github.com/iggyzuk/go-pinterest/controllers"
+	"github.com/iggyzuk/go-pinterest/models"
 )
 
 func main() {
@@ -23,10 +23,10 @@ To create an authenticated Pinterest client you can just chain the `RegisterAcce
 
 ```go
 import(
-    "github.com/a-frony/go-pinterest"
+    "github.com/iggyzuk/go-pinterest"
     // Below imports aren't needed immediately, but you'll want these soon after
-	"github.com/a-frony/go-pinterest/controllers"
-	"github.com/a-frony/go-pinterest/models"
+	"github.com/iggyzuk/go-pinterest/controllers"
+	"github.com/iggyzuk/go-pinterest/models"
 )
 
 func main() {
@@ -379,4 +379,4 @@ user, err := client.Users.Fetch("BrandonRRomano")
 
 ## License
 
-[MIT](LICENSE.md) © a-frony Creative
+[MIT](LICENSE.md) © iggyzuk Creative

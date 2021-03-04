@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/BrandonRomano/wrecker"
-	"github.com/a-frony/go-pinterest/controllers"
+	"github.com/iggyzuk/go-pinterest/controllers"
 )
 
 // Client is an API client that connects you with the

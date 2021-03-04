@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/BrandonRomano/wrecker"
-	"github.com/a-frony/go-pinterest/models"
+	"github.com/iggyzuk/go-pinterest/models"
 )
 
 // MeFollowingInterestsController is the controller that is responsible for all
