@@ -2,23 +2,21 @@ package models
 
 import "github.com/BrandonRomano/iso8601"
 
-const PIN_FIELDS = "id,link,note,url,attribution,color,board,counts,created_at,creator,image,media,metadata,original_link"
+const PIN_FIELDS = "id,link,url,board,created_at,note,color,counts,media,attribution,image,metadata"
 
 type Pin struct {
-	Id           string       `json:"id"`
-	Link         string       `json:"link"`
-	Url          string       `json:"url"`
-	Creator      Creator      `json:"creator"`
-	Board        Board        `json:"board"`
-	CreatedAt    iso8601.Time `json:"created_at"`
-	Note         string       `json:"note"`
-	Color        string       `json:"color"`
-	Counts       PinCounts    `json:"counts"`
-	Media        Media        `json:"json:"media"`
-	OriginalLink string       `json:"original_link"`
-	Attribution  Attribution  `json:"attribution"`
-	Image        PinImage     `json:"image"`
-	Metadata     PinMetadata  `json:"metadata"`
+	Id          string       `json:"id"`
+	Link        string       `json:"link"`
+	Url         string       `json:"url"`
+	Board       Board        `json:"board"`
+	CreatedAt   iso8601.Time `json:"created_at"`
+	Note        string       `json:"note"`
+	Color       string       `json:"color"`
+	Counts      PinCounts    `json:"counts"`
+	Media       Media        `json:"media"`
+	Attribution Attribution  `json:"attribution"`
+	Image       PinImage     `json:"image"`
+	Metadata    PinMetadata  `json:"metadata"`
 }
 
 type PinImage struct {

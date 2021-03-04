@@ -4,7 +4,7 @@ import (
 	"github.com/BrandonRomano/iso8601"
 )
 
-const BOARD_FIELDS = "id,url,reason,counts,created_at,creator,description,image,privacy,name"
+const BOARD_FIELDS = "id,name,url,description,created_at,counts,image"
 
 // Board is a struct that represents an individual board
 // from the Pinterest API.
@@ -13,7 +13,6 @@ type Board struct {
 	Name        string       `json:"name"`
 	Url         string       `json:"url"`
 	Description string       `json:"description"`
-	Creator     Creator      `json:"creator"`
 	CreatedAt   iso8601.Time `json:"created_at"`
 	Counts      BoardCounts  `json:"counts"`
 	Image       Images       `json:"image"`
